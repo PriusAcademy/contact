@@ -19,8 +19,8 @@ function App() {
     <div  className=' w-full min-h-screen overflow-hidden p-0 m-0  sm:w-full md:w-full lg:w-full font-DM'>
     <Router>
       <Routes>
-        <Route path='/' element={<Home />}></Route>
-        <Route path='/contact-us' element={<Contact />}></Route>
+        <Route path='contact/' element={<Home />}></Route>
+        <Route path='contact/contact-us' element={<Contact />}></Route>
       </Routes>
 
     </Router>
